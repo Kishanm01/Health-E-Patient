@@ -55,7 +55,7 @@ export default async function handler(req, res) {
 				});
 
 				await fetch(
-					"https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=AIzaSyA7JWhu7KGLQDDGNk6raGed_XrZqalDAJk",
+					"https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=",
 					{
 						method: "POST",
 						body: JSON.stringify({
